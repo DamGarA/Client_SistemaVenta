@@ -10,7 +10,8 @@ import { Usuario } from '../Interfaces/usuario';
   providedIn: 'root',
 })
 export class UsuarioService {
-  private urlApi: string = environment.endpoint + 'Usuario/';
+  // private urlApi: string = environment.endpoint + 'Usuario/';
+  private urlApi: string = 'http://sistemaventa.somee.com/api/Usuario/';
 
   constructor(private http: HttpClient) {}
 
