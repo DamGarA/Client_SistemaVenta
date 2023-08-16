@@ -49,7 +49,7 @@ export class LoginComponent {
         this.mostrarLoading = false;
       },
       error: () => {
-        this._utilidadServicio.mostrarAlerta('There was a mistake', 'Opps!');
+        this._utilidadServicio.mostrarAlerta('There was a mistake', 'Oops!');
       },
     });
   }
