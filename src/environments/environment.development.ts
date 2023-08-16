@@ -1,3 +1,3 @@
 export const environment = {
-  endpoint: 'http://sistemaventa.somee.com/api/',
+  endpoint: 'https://sistemaventa.somee.com/api/',
 };
